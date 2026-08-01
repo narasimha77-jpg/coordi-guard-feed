@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+Coordi-Guard Feed
 
-## Project info
+Coordi-Guard Feed is a real-time GPS tracking application that captures and displays live location updates. I built this project to learn how real-time location tracking works and how backend services can process and manage location data efficiently.
 
-**URL**: https://lovable.dev/projects/1b25b3ca-ee62-41a7-8277-d3127814bc81
+Features
 
-## How can I edit this code?
+- Live GPS location tracking
+- Real-time location updates
+- Route history tracking
+- REST API integration
+- Responsive interface
+- Backend location monitoring
 
-There are several ways of editing your application.
+Tech Stack
 
-**Use Lovable**
+- Node.js
+- Express.js
+- JavaScript
+- REST APIs
+- HTML
+- CSS
+- JSON
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b25b3ca-ee62-41a7-8277-d3127814bc81) and start prompting.
+Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+Clone the repository
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/narasimha77-jpg/coordi-guard-feed.git
 ```
 
-**Edit a file directly in GitHub**
+Install dependencies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+```
 
-**Use GitHub Codespaces**
+Start the server
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm start
+```
 
-## What technologies are used for this project?
+Why I Built This
 
-This project is built with:
+I wanted to understand how GPS-based applications work and how location data can be processed in real time. This project helped me learn backend API development, handling live location updates, and building applications that can monitor and visualize movement efficiently.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Future Improvements
 
-## How can I deploy this project?
+- Interactive map integration
+- User authentication
+- Real-time notifications
+- Geofencing support
+- Mobile application
+- Route analytics dashboard
 
-Simply open [Lovable](https://lovable.dev/projects/1b25b3ca-ee62-41a7-8277-d3127814bc81) and click on Share -> Publish.
+Author
 
-## Can I connect a custom domain to my Lovable project?
+Narasimha Mulagada
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+GitHub:
+https://github.com/narasimha77-jpg
